@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="MainLayout.css" rel="stylesheet" />
+    <link href="NavBar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div id="navbar">
+        <a href="Home Page.html">Home</a>
+        <a href="About Me.html">About Me</a>
+        <a href="Previous Works.html">Previous Works</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+
+
+        <div class="headerText">
+
+            <h1>Tomorrow's Web 2nd Assessment: Proof of Concept</h1>
+            <h2>BSU ID: 415224</h2>
+            <h2>Nicolas Stanley Mancao Parilla</h2>
+        </div>
+    </div>
+
+    <!-- Contents of the Page -->
+    <div class="WebsiteText">
+
+        <h1>Assessment Goal</h1>
+        <p>
+            For this assessment, we were tasked with building a web application with HTML, Javascript, and CSS
+            that uses one or More APIs. The website can be about anything, and we have the freedom to pick any API we want.
+        </p>
+
+        <h1>Original API </h1>
+        <p>
+            Geolocation was supposed to be my main API for this assessment because of my presentation,
+            but after some diffuculties I decided to change APIs. But since I already had the code for Geolocation,
+            I decided to put it here.
+        </p>
+        <h2>Click the button to get your coordinates.</h2>
+
+        <button class="button Geobutton" onclick="getLocation()">Try It</button>
+
+
+        <p id="demo"></p>
+
+        <script src="Script1.js"></script>
+
+        <h1>APIs Used</h1>
+
+        <dl>
+
+            <dt>Google Fonts API</dt>
+            <dt>Youtube Iframe API</dt>
+            <dt>Itch.io Widget API</dt>
+            <dt>Geolocation API</dt>
+
+        </dl>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+
+        <p>Made By Nicolas Stanley Mancao Parilla</p>
+    </div>
+
+    <script src="NavBar.js"></script>
+    <script src="Geolocation.js"></script>
+
+</body>
+
+</html>
